@@ -1,0 +1,20 @@
+// @use "../utils/mixin";
+// @use "../utils//variables" as v;
+@use "../utils" as f;
+
+.badge{
+    @include f.badge-base();
+
+    color: f.$badge-cl
+}
+.badge-completed {
+    background-color: f.$completed;
+}
+
+.badge-ended {
+    background-color: f.$ended;
+}
+
+.badge-active {
+    background-color: f.$active;
+}
