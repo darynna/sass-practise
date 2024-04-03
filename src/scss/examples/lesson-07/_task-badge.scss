@@ -1,0 +1,11 @@
+$status: (
+    "completed": purple,
+    'ended': red,
+    "active": green
+);
+
+@each $name, $color in $status {
+  .badge-#{$name} {
+    background-color: $color;
+  }
+}

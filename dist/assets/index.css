@@ -1,16 +1,11 @@
-.title {
-  font-size: 16px;
+.badge-completed {
+  background-color: purple;
 }
 
-body {
-  min-width: 100vw;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.badge-ended {
+  background-color: red;
 }
 
-.small-btn {
-  font-size: 16px;
-  color: white;
+.badge-active {
+  background-color: green;
 }
